@@ -11,11 +11,7 @@ my $build = Module::Build->new
     resources => {
             bugtracker =>  'https://github.com/neilneely/Data-Serializer/issues',
             homepage   =>  'http://metacpan.org/release/Data-Serializer',
-            repository =>  {
-    			url => 'git://github.com/neilneely/Data-Serializer.git',
-    			web => 'https://github.com/neilneely/Data-Serializer/',
-    			type => 'git',
-    		},
+            repository =>  'git://github.com/neilneely/Data-Serializer.git',
         },
 	},
 	requires => {
