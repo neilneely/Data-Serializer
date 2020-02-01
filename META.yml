@@ -1,6 +1,6 @@
 ---
 name: Data-Serializer
-version: 0.62
+version: 0.64
 author:
   - Neil Neely (neil@neely.cx)
 abstract: Modules that serialize data structures
@@ -9,10 +9,7 @@ resources:
   bugtracker: https://github.com/neilneely/Data-Serializer/issues
   homepage: http://metacpan.org/release/Data-Serializer
   license: http://dev.perl.org/licenses/
-  repository:
-    type: git
-    url: git://github.com/neilneely/Data-Serializer.git
-    web: https://github.com/neilneely/Data-Serializer/
+  repository: git://github.com/neilneely/Data-Serializer.git
 build_requires:
   File::Spec: 0
   IO::File: 0
@@ -50,7 +47,7 @@ configure_requires:
 provides:
   Data::Serializer:
     file: lib/Data/Serializer.pm
-    version: 0.62
+    version: 0.64
   Data::Serializer::Bencode:
     file: lib/Data/Serializer/Bencode.pm
     version: 0.03

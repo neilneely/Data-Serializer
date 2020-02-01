@@ -1,4 +1,8 @@
 Revision history for Perl extension Data::Serializer
+0.64 Fri Jan 31 2020
+	Fix Test::Pod failures
+0.63 Thr Jan 30 2020
+	Actually fix the github repo link
 0.62 Thr Jan 30 2020
 	Add links to github repository
 0.61 Thr Jan 30 2020
