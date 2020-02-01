@@ -7,7 +7,7 @@ use vars qw($VERSION);
 use Carp;
 require 5.004 ;
 
-$VERSION = '0.64';
+$VERSION = '0.65';
 
 #Global cache of modules we've loaded
 my %_MODULES;
